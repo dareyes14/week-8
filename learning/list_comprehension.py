@@ -6,8 +6,9 @@
 
 # Create a square_values list consisting of the numbers in the values list, squared.
 
-# values = [1, 2, 3, 4, 5, 6, 9.5]
+values = [1, 2, 3, 4, 5, 6, 9.5]
 
+square_values = [value ** 2 for value in values]
 
 
 
@@ -18,7 +19,7 @@
 
 # values = [1, 2, 3, 4, 5, 6, 9.5]
 
-
+even_values = [value for value in values if value % 2 == 0]
 
 
 # List Comprehensions Practice #3

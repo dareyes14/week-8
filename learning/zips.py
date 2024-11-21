@@ -2,9 +2,26 @@
 
 
 ######################################### zip in python############################################
+# zip(iterables) = aggregate elements from two or more iterables (list, tuples, sets, etc.) 
+# creates a zip object with paired elements stored in tuple for each element 
 
+usernames = ["Dude", "Bro", "Mister"]
+passwords = ("p@ssword", "abc123", "guest")
 
+users = list(zip(usernames, passwords))
 
+print(type(users))
+
+for i in users:
+    print(i)
+
+student_names = ["Steven", "Jackie", "Donna", "Kelso"]
+student_ids = [1000, 2333, 33445, 45556]
+student_ages = [22, 34, 45, 56]
+student_gpas = [3,0, 4.0, 3.5, 3.7]
+zipped_items = zip(student_ages, student_ids, student_ages, student_gpas)
+for i in zipped_items:
+    print(i)
 # Zip Practice #1
 # Print to the screen phrases like the following example:
 

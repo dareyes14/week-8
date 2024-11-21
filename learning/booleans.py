@@ -49,28 +49,30 @@
 
 # x = 5
 # print(x > 3 and x < 10)  # True
-# age = 18
-# print(age >= 18 and age < 65)  # True
-# print(age < 18 or age >= 65)   # False
-# or: Returns True if at least one of the statements is true.
+# # age = 18
+# # print(age >= 18 and age < 65)  # True
+# # print(age < 18 or age >= 65)   # False
+# # or: Returns True if at least one of the statements is true.
 
-# x = 5
-# print(x > 3 or x > 10)  # True
-# not: Reverse the result, returns False if the result is true.
+# # x = 5
+# # print(x > 3 or x > 10)  # True
+# # not: Reverse the result, returns False if the result is true.
 
-# x = 5
-# print(not(x > 3 and x < 10))  # False
-# 3. Membership Operators:
-# in: Returns True if a sequence with the specified value is present in the object.
+# # x = 5
+# # print(not(x > 3 and x < 10))  # False
+# # 3. Membership Operators:
+# # in: Returns True if a sequence with the specified value is present in the object.
 
 # x = [1, 2, 3, 4, 5]
 # print(3 in x)  # True
-# not in: Returns True if a sequence with the specified value is not present in the object.
+# print(8 in x)
+# print(4 in x)
+# # not in: Returns True if a sequence with the specified value is not present in the object.
 
-# x = [1, 2, 3, 4, 5]
-# print(6 not in x)  # True
-# 4. Identity Operators:
-# is: Returns True if both variables are the same object.
+# # x = [1, 2, 3, 4, 5]
+# # print(6 not in x)  # True
+# # 4. Identity Operators:
+# # is: Returns True if both variables are the same object.
 
 # x = [1, 2, 3]
 # y = [1, 2, 3]
@@ -90,7 +92,7 @@
 # c = a
 # print(a is c)       # True
 # print(a is not b)   # True
-# Remember, every boolean expression will evaluate to either True or False, and understanding this concept is fundamental for decision-making in programming.
+# # Remember, every boolean expression will evaluate to either True or False, and understanding this concept is fundamental for decision-making in programming.
 
 
 #######################boolean expressions challenges#####################
